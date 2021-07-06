@@ -1,0 +1,51 @@
+body {
+  background-color: #fff;
+
+}
+
+.btn-5 {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+#gacha {
+  background-color: cornflowerblue;
+  width: 150px;
+  height: 50px;
+  margin: 0 auto 0;
+  text-align: center;
+  line-height: 50px;
+  font-weight: bold;
+  border-radius: 50%;
+  cursor: pointer;
+  user-select: none;
+}
+
+#gacha:hover {
+  opacity: 0.9;
+}
+
+#btn1, #btn2, #btn3, #btn4, #btn5, #btn6, #btn7, #btn8, #btn9, #btn10 {
+  width: 200px;
+  height: 100px;
+  background: #c0c0c0;
+  margin: 100px auto ;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 100px;
+  font-size: 42px;
+  color: gray;
+  font-weight: bold;
+  box-shadow: 0px 10px 0 #696969;
+  user-select: none;
+}
+
+#btn:hover {
+  opacity: 0.9;
+}
+
+#btn:active {
+  box-shadow: 0px 5px 0 red;
+  margin: 35px auto;
+}

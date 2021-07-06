@@ -1,0 +1,207 @@
+@charset "utf-8"
+
+html {
+  font-size: 100%;
+}
+
+body {
+  color: #24292e;
+}
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto 130px auto;
+  font-size: 0.9rem;
+  padding: 0 4%;
+}
+
+.site-title {
+  line-height: 1px;
+}
+
+.site-title a {
+  display: block;
+}
+
+.sec-title {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 65px;
+}
+
+/*----------------------------------------
+     ヘッダー
+-----------------------------------------*/
+#header {
+  max-width: 960px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 270px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+
+#header ul {
+  display: flex;
+  padding: 10px 0;
+}
+#header li {
+  font-size: 1rem;
+  margin-left: 30px;
+}
+
+#header li a {
+  color: #24292e;
+}
+
+#header li a:hover {
+  opacity: 0.7;
+}
+
+/*----------------------------------------
+     メインビジュアル
+-----------------------------------------*/
+#mainvisual {
+  margin-bottom: 80px;
+}
+
+#mainvisual img {
+  width: 100%;
+  max-width: 1920px;
+  height: 420px;
+  object-fit: cover;
+}
+/*----------------------------------------
+     About
+-----------------------------------------*/
+
+
+
+#about li:first-child {
+  margin-bottom: 30px;
+}
+
+#about li {
+  margin-bottom: 5px;
+}
+
+#about p {
+  text-align: justify;
+}
+/*----------------------------------------
+     Works
+-----------------------------------------*/
+.works-card-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.works-card-wrapper:last-child {
+  margin-top: 30px;
+}
+.works-card {
+width: 30%;
+box-shadow: 0 3px 6px rgba(0, 0, 0, 0.7);
+}
+
+.works-card img {
+  width: 100%;
+  height: 150px;
+ object-fit: scale-down;
+}
+
+.works-card img:hover {
+  opacity: 0.9;
+}
+
+.works-card h3 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+/*----------------------------------------
+     News
+-----------------------------------------*/
+#news dl {
+border-top: solid 1px #c8c8c8;
+margin-bottom: 20px;
+
+}
+
+#news dt {
+float: left;
+clear: left;
+width: 120px;
+border-bottom: solid 1px #c8c8c8;
+padding: 15px;
+}
+
+#news dd {
+padding: 15px;
+border-bottom: solid 1px #c8c8c8;
+}
+
+#contact dl {
+  margin-bottom: 20px;
+}
+
+
+
+
+
+#contact dt {
+width: 10%;
+float: left;
+}
+
+#contact dd {
+  width: 100%;
+margin-bottom: 10px;
+}
+
+#contact dd input,
+#contact dd textarea {
+width: 85%;
+border: solid 1px #c8c8c8;
+padding: 10px;
+}
+
+#contact dd textarea {
+  height: 6rem;
+}
+
+.button {
+text-align: center;
+}
+
+.button input {
+  width: 200px;
+  background-color: #24292e;
+  color: #fff;
+  padding: 15px 0;
+  border: solid 1px #24292e;
+}
+
+.button input:hover {
+  background-color: #fff;
+  color: #24292e;
+}
+
+footer {
+  text-align: center;
+  background-color: #24292e;
+  color: #fff;
+  font-size: 0.5rem;
+  padding: 10px 20px;
+}
